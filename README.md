@@ -107,7 +107,7 @@ filosofía:    "Detecta, confirma, prioriza y recomienda."
 <td width="50%" valign="top">
 
 ### 🛡️ <a href="https://github.com/THRaven426/opsdeck">opsdeck</a>
-<img src="https://img.shields.io/badge/versi%C3%B3n-v2.4.1-0e75b6?style=flat-square" alt="versión: v2.4.1"/> <img src="https://img.shields.io/badge/repo-p%C3%BAblico-00b37e?style=flat-square&logo=github" alt="repo: público"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
+<img src="https://img.shields.io/badge/versi%C3%B3n-v2.4.1-0e75b6?style=flat-square" alt="versión: v2.4.1"/> <img src="https://img.shields.io/badge/repo-p%C3%BAblico-00b37e?style=flat-square&logo=github" alt="repo: público"/> <img src="https://img.shields.io/badge/%E2%98%85-1-f5c518?style=flat-square" alt="★: 1"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
 
 Sistemas y ciberseguridad para Linux en una sola herramienta: menú visual en la terminal o línea de comando.
 
@@ -123,7 +123,7 @@ Sistemas y ciberseguridad para Linux en una sola herramienta: menú visual en la
 <td width="50%" valign="top">
 
 ### 🗝️ Keystone
-<img src="https://img.shields.io/badge/versi%C3%B3n-v0.1.1-0e75b6?style=flat-square" alt="versión: v0.1.1"/> <img src="https://img.shields.io/badge/estado-en_desarrollo-f0a500?style=flat-square" alt="estado: en desarrollo"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
+<img src="https://img.shields.io/badge/estado-en_desarrollo-f0a500?style=flat-square" alt="estado: en desarrollo"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/>
 
 Gestión web centralizada de Active Directory y, próximamente, Entra ID / Microsoft 365.
 
@@ -142,7 +142,7 @@ Gestión web centralizada de Active Directory y, próximamente, Entra ID / Micro
 <td width="50%" valign="top">
 
 ### 🐧 linux-sk-tool
-<img src="https://img.shields.io/badge/versi%C3%B3n-v3.0-0e75b6?style=flat-square" alt="versión: v3.0"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/> <img src="https://img.shields.io/badge/actualizado-nov_2022-30363d?style=flat-square" alt="actualizado: nov 2022"/>
+<img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/>
 
 Navaja suiza en Bash para Ubuntu/Debian: instala servicios, actualiza el equipo y cambia la IP desde un menú interactivo.
 
@@ -154,7 +154,7 @@ Navaja suiza en Bash para Ubuntu/Debian: instala servicios, actualiza el equipo 
 <td width="50%" valign="top">
 
 ### 🏕️ NafarKamp
-<img src="https://img.shields.io/badge/versi%C3%B3n-V0.5-0e75b6?style=flat-square" alt="versión: V0.5"/> <img src="https://img.shields.io/badge/estado-proyecto_en_equipo-f0a500?style=flat-square" alt="estado: proyecto en equipo"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/> <img src="https://img.shields.io/badge/actualizado-mar_2023-30363d?style=flat-square" alt="actualizado: mar 2023"/>
+<img src="https://img.shields.io/badge/estado-proyecto_en_equipo-f0a500?style=flat-square" alt="estado: proyecto en equipo"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/>
 
 Web para la gestión autónoma de bungalows en campings de Navarra: reservas, registro e intranet.
 
