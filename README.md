@@ -38,9 +38,8 @@ filosofía:    "Detecta, confirma, prioriza y recomienda."
 <td width="50%" valign="top">
 
 ### 🔭 Ahora mismo
-- 🛡️ **opsdeck** → hallazgos persistentes con estado e informe de auditoría
-- 🗝️ **Keystone** → fase F1: sincronización, búsqueda e informes de AD
-- 🧪 Validando ambos contra un **AD real** (2019 / 2025)
+- 🛡️ **opsdeck** → ya es **público**: de los informes de Nessus/OpenVAS a la re-verificación
+- 🗝️ **Keystone** → validando contra un **AD real** (2019 / 2025) antes de la fase F1
 - ⚙️ Firma de versiones con **GitHub Actions**
 
 </td>
@@ -90,24 +89,33 @@ filosofía:    "Detecta, confirma, prioriza y recomienda."
 
 ## 🚀 Proyectos destacados
 
+<!-- PROYECTOS:INICIO -->
+
+<!-- Sección generada por perfil/generar.py: edita perfil/proyectos.yml, no este bloque -->
+
+<p align="center">
+  <img src="https://img.shields.io/badge/repos_p%C3%BAblicos-1-00b37e?style=flat-square&logo=github" alt="repos públicos: 1"/>
+  <img src="https://img.shields.io/badge/repos_privados-3-555?style=flat-square&logo=github" alt="repos privados: 3"/>
+</p>
+
 > [!NOTE]
-> Varios repositorios son **privados** (algunos de forma temporal) mientras maduran.
+> Algunos repositorios son **privados** (varios de forma temporal) mientras maduran.
 > Si te interesa alguno, escríbeme y te cuento más o te doy acceso.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ opsdeck
-<img src="https://img.shields.io/badge/versión-2.2.0-0e75b6?style=flat-square"/> <img src="https://img.shields.io/badge/estado-activo-00b37e?style=flat-square"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github"/>
+### 🛡️ <a href="https://github.com/THRaven426/opsdeck">opsdeck</a>
+<img src="https://img.shields.io/badge/versi%C3%B3n-v2.4.1-0e75b6?style=flat-square" alt="versión: v2.4.1"/> <img src="https://img.shields.io/badge/repo-p%C3%BAblico-00b37e?style=flat-square&logo=github" alt="repo: público"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
 
-Herramienta TUI todo-en-uno para **administración de sistemas + blue team + purple team** en Linux.
+Sistemas y ciberseguridad para Linux en una sola herramienta: menú visual en la terminal o línea de comando.
 
-- **22 módulos**: sistema, usuarios, firewall, registros, bastionado, triaje, antimalware, rootkits, integridad, escaneo, tráfico, SMB, web, nuclei…
-- 🚧 **Barandilla de alcance**: confina escaneos a redes autorizadas
-- 🧠 **Recomendaciones por hallazgo**: confirmar → mitigar → parchear
-- 📡 Control de frescura de feeds (nuclei, exploit-db, apt)
-- 📜 Auditoría JSON de todas las acciones · instalador estilo `apt`
+- Administra equipos, los une a **Active Directory** y revisa su seguridad
+- Auditoría de red, servicios expuestos, **TLS**, SSH, SMB y web
+- Importa informes de **Nessus / OpenVAS** y re-verifica cada hallazgo
+- Blue team: triaje, Lynis, ClamAV, rkhunter, AIDE
+- 🚧 Barandilla de alcance y registro de todas las acciones
 
 `Python` `Textual` `Bash`
 
@@ -115,15 +123,16 @@ Herramienta TUI todo-en-uno para **administración de sistemas + blue team + pur
 <td width="50%" valign="top">
 
 ### 🗝️ Keystone
-<img src="https://img.shields.io/badge/versión-0.1.0-0e75b6?style=flat-square"/> <img src="https://img.shields.io/badge/fase-F0_base-f0a500?style=flat-square"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github"/>
+<img src="https://img.shields.io/badge/versi%C3%B3n-v0.1.1-0e75b6?style=flat-square" alt="versión: v0.1.1"/> <img src="https://img.shields.io/badge/estado-en_desarrollo-f0a500?style=flat-square" alt="estado: en desarrollo"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
 
-Gestión web centralizada de **Active Directory** y, próximamente, **Entra ID / Microsoft 365**.
+Gestión web centralizada de Active Directory y, próximamente, Entra ID / Microsoft 365.
 
-- 🧙 Asistente inicial: dominio, DC, LDAPS, cuenta de servicio con comprobación de permisos
-- 👥 Login con cuentas del AD · roles = grupos, acotados por OU
-- 🔐 MFA · panel de estado de seguridad (ENS / ISO 27001)
-- ⛓️ **Auditoría encadenada por hash** (antes/después, quién, cuándo)
-- ✍️ Actualizador con **paquetes firmados**
+- Asistente inicial: dominio, DC, LDAPS y cuenta de servicio con permisos verificados
+- Login con cuentas del AD · roles = grupos, acotados por OU
+- MFA y panel de estado de seguridad (ENS / ISO 27001)
+- ⛓️ Auditoría encadenada por hash · actualizador con paquetes firmados
+
+<sub>🔒 Repositorio privado: si te interesa, escríbeme y te doy acceso.</sub>
 
 `Python` `FastAPI` `ldap3` `PostgreSQL` `PowerShell`
 
@@ -133,9 +142,11 @@ Gestión web centralizada de **Active Directory** y, próximamente, **Entra ID /
 <td width="50%" valign="top">
 
 ### 🐧 linux-sk-tool
-<img src="https://img.shields.io/badge/versión-3.0-0e75b6?style=flat-square"/> <img src="https://img.shields.io/badge/estado-funcional-00b37e?style=flat-square"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github"/>
+<img src="https://img.shields.io/badge/versi%C3%B3n-v3.0-0e75b6?style=flat-square" alt="versión: v3.0"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/> <img src="https://img.shields.io/badge/actualizado-nov_2022-30363d?style=flat-square" alt="actualizado: nov 2022"/>
 
-Navaja suiza en Bash para el día a día en Linux: instalación de servicios, actualización del equipo y cambio de IP desde un menú interactivo, de forma automática o semiautomática.
+Navaja suiza en Bash para Ubuntu/Debian: instala servicios, actualiza el equipo y cambia la IP desde un menú interactivo.
+
+<sub>🔒 Repositorio privado: si te interesa, escríbeme y te doy acceso.</sub>
 
 `Bash` `Linux`
 
@@ -143,27 +154,33 @@ Navaja suiza en Bash para el día a día en Linux: instalación de servicios, ac
 <td width="50%" valign="top">
 
 ### 🏕️ NafarKamp
-<img src="https://img.shields.io/badge/tipo-proyecto_en_equipo-8a63d2?style=flat-square"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github"/>
+<img src="https://img.shields.io/badge/versi%C3%B3n-V0.5-0e75b6?style=flat-square" alt="versión: V0.5"/> <img src="https://img.shields.io/badge/estado-proyecto_en_equipo-f0a500?style=flat-square" alt="estado: proyecto en equipo"/> <img src="https://img.shields.io/badge/repo-privado-555?style=flat-square&logo=github" alt="repo: privado"/> <img src="https://img.shields.io/badge/actualizado-mar_2023-30363d?style=flat-square" alt="actualizado: mar 2023"/>
 
-Web para la gestión autónoma de bungalows en campings de Navarra: reservas, registro e inicio de sesión, e intranet.
+Web para la gestión autónoma de bungalows en campings de Navarra: reservas, registro e intranet.
+
+<sub>🔒 Repositorio privado: si te interesa, escríbeme y te doy acceso.</sub>
 
 `PHP` `MySQL` `HTML/CSS` `JavaScript`
 
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td colspan="2" width="100%" valign="top">
 
-### ⛽ Surtidor
-<img src="https://img.shields.io/badge/estado-en_cambios-f0a500?style=flat-square"/> <img src="https://img.shields.io/badge/servicio-público-00b37e?style=flat-square"/>
+### ⛽ <a href="https://home.harihomelab.net/surtidor">Surtidor</a>
+<img src="https://img.shields.io/badge/estado-en_cambios-f0a500?style=flat-square" alt="estado: en cambios"/> <img src="https://img.shields.io/badge/servicio-p%C3%BAblico-00b37e?style=flat-square" alt="servicio: público"/>
 
-Web para encontrar las **gasolineras más baratas cerca de ti**. Es el único servicio público de mi HomeLab.
+Web para encontrar las gasolineras más baratas cerca de ti. Es el único servicio público de mi HomeLab.
 
-🔗 **[home.harihomelab.net/surtidor](https://home.harihomelab.net/surtidor)** · ahora mismo estoy haciendo cambios, puede que algo no funcione.
+🔗 **[home.harihomelab.net/surtidor](https://home.harihomelab.net/surtidor)**
+
+<sub>Ahora mismo estoy haciendo cambios: puede que algo no funcione.</sub>
 
 </td>
 </tr>
 </table>
+
+<!-- PROYECTOS:FIN -->
 
 <details>
 <summary><b>🗺️ Cómo encajan opsdeck y Keystone</b></summary>

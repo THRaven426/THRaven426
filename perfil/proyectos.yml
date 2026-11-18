@@ -1,0 +1,67 @@
+# Proyectos del perfil. La GitHub Action «Actualizar perfil» lee este fichero y rehace
+# la sección de proyectos del README.
+#
+# Lo que se calcula solo en cada ejecución:
+#   - si el repo es público o privado (los privados se muestran sin enlace)
+#   - la versión: última release; si no hay, la etiqueta más alta
+#   - el mes de la última actualización, las estrellas y si está archivado
+#
+# Lo que escribes tú aquí: emoji, resumen, puntos, stack y estado.
+#
+# Repos nuevos: cualquier repo tuyo con el topic indicado en «topic_auto» que no esté en
+# esta lista se añade al final, con la descripción y el lenguaje que tenga en GitHub.
+# Para ocultar un proyecto sin borrarlo de aquí: «mostrar: false».
+
+usuario: THRaven426
+topic_auto: perfil
+
+proyectos:
+  - repo: opsdeck
+    emoji: "🛡️"
+    resumen: >-
+      Sistemas y ciberseguridad para Linux en una sola herramienta: menú visual en la
+      terminal o línea de comando.
+    puntos:
+      - "Administra equipos, los une a **Active Directory** y revisa su seguridad"
+      - "Auditoría de red, servicios expuestos, **TLS**, SSH, SMB y web"
+      - "Importa informes de **Nessus / OpenVAS** y re-verifica cada hallazgo"
+      - "Blue team: triaje, Lynis, ClamAV, rkhunter, AIDE"
+      - "🚧 Barandilla de alcance y registro de todas las acciones"
+    stack: [Python, Textual, Bash]
+
+  - repo: keystone
+    titulo: Keystone
+    emoji: "🗝️"
+    resumen: >-
+      Gestión web centralizada de Active Directory y, próximamente, Entra ID / Microsoft 365.
+    puntos:
+      - "Asistente inicial: dominio, DC, LDAPS y cuenta de servicio con permisos verificados"
+      - "Login con cuentas del AD · roles = grupos, acotados por OU"
+      - "MFA y panel de estado de seguridad (ENS / ISO 27001)"
+      - "⛓️ Auditoría encadenada por hash · actualizador con paquetes firmados"
+    stack: [Python, FastAPI, ldap3, PostgreSQL, PowerShell]
+    estado: en desarrollo
+
+  - repo: linux-sk-tool
+    emoji: "🐧"
+    resumen: >-
+      Navaja suiza en Bash para Ubuntu/Debian: instala servicios, actualiza el equipo y
+      cambia la IP desde un menú interactivo.
+    stack: [Bash, Linux]
+
+  - repo: NafarKamp
+    emoji: "🏕️"
+    resumen: >-
+      Web para la gestión autónoma de bungalows en campings de Navarra: reservas, registro
+      e intranet.
+    stack: [PHP, MySQL, HTML/CSS, JavaScript]
+    estado: proyecto en equipo
+
+  - servicio: Surtidor
+    emoji: "⛽"
+    url: https://home.harihomelab.net/surtidor
+    resumen: >-
+      Web para encontrar las gasolineras más baratas cerca de ti. Es el único servicio
+      público de mi HomeLab.
+    estado: en cambios
+    nota: "Ahora mismo estoy haciendo cambios: puede que algo no funcione."
