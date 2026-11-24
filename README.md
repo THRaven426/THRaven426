@@ -107,7 +107,7 @@ filosofía:    "Detecta, confirma, prioriza y recomienda."
 <td width="50%" valign="top">
 
 ### 🛡️ <a href="https://github.com/THRaven426/opsdeck">opsdeck</a>
-<img src="https://img.shields.io/badge/versi%C3%B3n-v2.4.1-0e75b6?style=flat-square" alt="versión: v2.4.1"/> <img src="https://img.shields.io/badge/repo-p%C3%BAblico-00b37e?style=flat-square&logo=github" alt="repo: público"/> <img src="https://img.shields.io/badge/%E2%98%85-1-f5c518?style=flat-square" alt="★: 1"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
+<img src="https://img.shields.io/badge/versi%C3%B3n-v2.4.2-0e75b6?style=flat-square" alt="versión: v2.4.2"/> <img src="https://img.shields.io/badge/repo-p%C3%BAblico-00b37e?style=flat-square&logo=github" alt="repo: público"/> <img src="https://img.shields.io/badge/%E2%98%85-1-f5c518?style=flat-square" alt="★: 1"/> <img src="https://img.shields.io/badge/actualizado-nov_2026-30363d?style=flat-square" alt="actualizado: nov 2026"/>
 
 Sistemas y ciberseguridad para Linux en una sola herramienta: menú visual en la terminal o línea de comando.
 
